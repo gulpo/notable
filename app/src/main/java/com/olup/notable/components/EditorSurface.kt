@@ -1,4 +1,4 @@
-package com.olup.notable
+package com.olup.notable.components
 
 import io.shipbook.shipbooksdk.Log
 import androidx.compose.foundation.layout.Box
@@ -8,6 +8,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.viewinterop.AndroidView
+import com.olup.notable.*
 
 @Composable
 @ExperimentalComposeUiApi

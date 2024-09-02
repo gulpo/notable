@@ -1,4 +1,4 @@
-package com.olup.notable
+package com.olup.notable.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -13,7 +13,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import kotlinx.coroutines.CoroutineScope
+import com.olup.notable.*
+import com.olup.notable.R
 import kotlinx.coroutines.launch
 
 fun PresentlyUsedToolIcon(mode: Mode, pen: Pen): Int {

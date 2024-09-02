@@ -15,7 +15,9 @@ import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.olup.notable.AppRepository
+import com.olup.notable.components.Topbar
+import com.olup.notable.components.PageMenu
+import com.olup.notable.components.PagePreview
 
 @ExperimentalFoundationApi
 @Composable

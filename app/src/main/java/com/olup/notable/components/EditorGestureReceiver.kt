@@ -1,4 +1,4 @@
-package com.olup.notable
+package com.olup.notable.components
 
 import io.shipbook.shipbooksdk.Log
 import androidx.compose.foundation.gestures.*
@@ -13,6 +13,7 @@ import androidx.compose.ui.input.pointer.PointerType
 import androidx.compose.ui.input.pointer.pointerInput
 import com.olup.notable.EditorControlTower
 import kotlinx.coroutines.launch
+import com.olup.notable.*
 
 
 @Composable

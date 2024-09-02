@@ -11,6 +11,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.pointer.*
 import androidx.compose.ui.platform.LocalContext
 import androidx.navigation.NavController
+import com.olup.notable.components.*
 import com.olup.notable.db.*
 import com.olup.notable.ui.theme.InkaTheme
 import com.onyx.android.sdk.pen.*

@@ -96,4 +96,4 @@ fun isLatestVersion(context: Context, force: Boolean = false): Boolean {
     }
 }
 
-val isNext = BuildConfig.IS_NEXT
+val isNext = false //BuildConfig.IS_NEXT

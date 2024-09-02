@@ -29,6 +29,7 @@ import com.olup.notable.AppRepository
 import com.olup.notable.db.Folder
 import com.olup.notable.db.Notebook
 import com.olup.notable.db.Page
+import com.olup.notable.components.*
 import compose.icons.FeatherIcons
 import compose.icons.feathericons.Folder
 import compose.icons.feathericons.Settings

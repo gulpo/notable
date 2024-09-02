@@ -1,7 +1,8 @@
-package com.olup.notable
+package com.olup.notable.components
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.runtime.*
+import com.olup.notable.*
 
 @Composable
 fun PenToolbarButton(

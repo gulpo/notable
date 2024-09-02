@@ -1,4 +1,4 @@
-package com.olup.notable
+package com.olup.notable.components
 
 import android.content.Context
 import androidx.compose.foundation.background
@@ -9,6 +9,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import kotlin.math.max
+import com.olup.notable.*
 
 @Composable
 fun ScrollIndicator(context: Context, state: EditorState) {

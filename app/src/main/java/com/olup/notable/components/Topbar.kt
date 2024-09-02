@@ -1,4 +1,4 @@
-package com.olup.notable
+package com.olup.notable.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*

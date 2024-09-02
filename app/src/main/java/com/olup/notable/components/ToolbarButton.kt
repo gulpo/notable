@@ -1,4 +1,4 @@
-package com.olup.notable
+package com.olup.notable.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -11,6 +11,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
+import com.olup.notable.*
 
 @Composable
 fun ToolbarButton(

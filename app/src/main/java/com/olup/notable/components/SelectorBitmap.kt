@@ -1,4 +1,4 @@
-package com.olup.notable
+package com.olup.notable.components
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.Image
@@ -17,7 +17,7 @@ import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.round
-import com.olup.notable.EditorControlTower
+import com.olup.notable.*
 import java.util.Date
 import java.util.UUID
 

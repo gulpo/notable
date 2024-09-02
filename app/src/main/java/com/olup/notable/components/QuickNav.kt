@@ -1,4 +1,4 @@
-package com.olup.notable
+package com.olup.notable.components
 
 import android.annotation.SuppressLint
 import androidx.compose.foundation.background
@@ -19,7 +19,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.olup.notable.AppRepository
+import com.olup.notable.*
 import compose.icons.FeatherIcons
 import compose.icons.feathericons.Home
 import compose.icons.feathericons.Plus

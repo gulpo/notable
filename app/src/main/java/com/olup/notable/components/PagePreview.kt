@@ -1,4 +1,4 @@
-package com.olup.notable
+package com.olup.notable.components
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
