@@ -1,4 +1,4 @@
-package com.olup.notable
+package com.olup.notable.view
 
 import io.shipbook.shipbooksdk.Log
 import androidx.compose.foundation.ExperimentalFoundationApi
@@ -11,7 +11,7 @@ import androidx.navigation.NavController
 import com.olup.notable.components.*
 import com.olup.notable.utils.*
 import com.olup.notable.ui.theme.InkaTheme
-
+import com.olup.notable.*
 
 @OptIn(ExperimentalComposeUiApi::class)
 @Composable
@@ -35,8 +35,8 @@ fun EditorView(
     }
 
     BoxWithConstraints() {
-        var height = convertDpToPixel(this.maxHeight, context).toInt()
-        var width = convertDpToPixel(this.maxWidth, context).toInt()
+        val height = convertDpToPixel(this.maxHeight, context).toInt()
+        val width = convertDpToPixel(this.maxWidth, context).toInt()
 
 
         val page = remember {

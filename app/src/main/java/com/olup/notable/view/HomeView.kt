@@ -1,13 +1,13 @@
-package com.olup.notable
+package com.olup.notable.view
 
 import io.shipbook.shipbooksdk.Log
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyRow
+import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
-import androidx.compose.foundation.lazy.grid.items
-import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Badge
 import androidx.compose.material.BadgedBox
@@ -30,6 +30,7 @@ import com.olup.notable.db.Notebook
 import com.olup.notable.db.Page
 import com.olup.notable.components.*
 import com.olup.notable.utils.*
+import com.olup.notable.*
 import compose.icons.FeatherIcons
 import compose.icons.feathericons.Folder
 import compose.icons.feathericons.Settings

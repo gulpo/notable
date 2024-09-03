@@ -1,4 +1,4 @@
-package com.olup.notable
+package com.olup.notable.view
 
 import androidx.compose.animation.EnterTransition
 import androidx.compose.animation.ExitTransition
@@ -15,6 +15,8 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavType
 import androidx.navigation.navArgument
 import com.olup.notable.components.QuickNav
+import com.olup.notable.DrawCanvas
+import com.olup.notable.*
 import com.google.accompanist.navigation.animation.AnimatedNavHost
 import com.google.accompanist.navigation.animation.composable
 import com.google.accompanist.navigation.animation.rememberAnimatedNavController
