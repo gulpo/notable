@@ -15,6 +15,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.olup.notable.*
 import com.olup.notable.R
+import com.olup.notable.utils.*
 import kotlinx.coroutines.launch
 
 fun PresentlyUsedToolIcon(mode: Mode, pen: Pen): Int {

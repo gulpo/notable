@@ -1,4 +1,4 @@
-package com.olup.notable
+package com.olup.notable.utils
 
 import com.onyx.android.sdk.pen.style.StrokeStyle
 

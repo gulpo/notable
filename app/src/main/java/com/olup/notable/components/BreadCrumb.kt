@@ -11,7 +11,7 @@ import com.olup.notable.db.Folder
 import com.olup.notable.db.FolderRepository
 import compose.icons.FeatherIcons
 import compose.icons.feathericons.ChevronRight
-import com.olup.notable.*
+import com.olup.notable.utils.noRippleClickable
 
 @Composable
 fun BreadCrumb(folderId : String? = null, onSelectFolderId:(String?)->Unit){

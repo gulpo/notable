@@ -15,8 +15,9 @@ import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Popup
 import androidx.compose.ui.window.PopupProperties
-import com.olup.notable.*
 import com.olup.notable.R
+import com.olup.notable.utils.Eraser
+import com.olup.notable.utils.convertDpToPixel
 
 @Composable
 fun EraserToolbarButton(

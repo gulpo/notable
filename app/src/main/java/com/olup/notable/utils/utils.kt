@@ -1,11 +1,10 @@
-package com.olup.notable
+package com.olup.notable.utils
 
 import android.content.Context
 import android.content.Intent
 import android.graphics.*
 import android.util.DisplayMetrics
 import android.util.TypedValue
-import io.shipbook.shipbooksdk.Log
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.runtime.remember
@@ -18,17 +17,18 @@ import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
 import androidx.core.graphics.toRect
 import androidx.core.graphics.toRegion
+import com.olup.notable.*
 import com.olup.notable.db.*
 import com.onyx.android.sdk.data.note.TouchPoint
+import io.shipbook.shipbooksdk.Log
+import java.io.File
+import java.io.FileOutputStream
+import java.io.IOException
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
-import java.io.File
-import java.io.FileOutputStream
-import java.io.IOException
-
 
 fun Modifier.noRippleClickable(
     onClick: () -> Unit

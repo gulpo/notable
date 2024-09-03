@@ -11,7 +11,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import com.olup.notable.*
+import com.olup.notable.utils.noRippleClickable
 
 @Composable
 fun ToolbarButton(

@@ -25,15 +25,14 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.olup.notable.AppRepository
 import com.olup.notable.db.Folder
 import com.olup.notable.db.Notebook
 import com.olup.notable.db.Page
 import com.olup.notable.components.*
+import com.olup.notable.utils.*
 import compose.icons.FeatherIcons
 import compose.icons.feathericons.Folder
 import compose.icons.feathericons.Settings
-import java.net.URL
 import kotlin.concurrent.thread
 
 @ExperimentalFoundationApi

@@ -27,6 +27,7 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import androidx.navigation.NavController
 import com.olup.notable.db.FolderRepository
+import com.olup.notable.utils.noRippleClickable
 
 
 @ExperimentalComposeUiApi

@@ -2,19 +2,15 @@ package com.olup.notable
 
 import io.shipbook.shipbooksdk.Log
 import androidx.compose.foundation.ExperimentalFoundationApi
-import androidx.compose.foundation.gestures.*
 import androidx.compose.foundation.layout.*
-import androidx.compose.material.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.input.pointer.*
 import androidx.compose.ui.platform.LocalContext
 import androidx.navigation.NavController
 import com.olup.notable.components.*
-import com.olup.notable.db.*
+import com.olup.notable.utils.*
 import com.olup.notable.ui.theme.InkaTheme
-import com.onyx.android.sdk.pen.*
 
 
 @OptIn(ExperimentalComposeUiApi::class)

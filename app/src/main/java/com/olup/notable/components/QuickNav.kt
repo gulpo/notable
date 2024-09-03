@@ -19,6 +19,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
+import com.olup.notable.utils.noRippleClickable
 import com.olup.notable.*
 import compose.icons.FeatherIcons
 import compose.icons.feathericons.Home

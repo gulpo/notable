@@ -4,6 +4,7 @@ import android.graphics.Rect
 import androidx.compose.ui.unit.toOffset
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
+import com.olup.notable.utils.*
 
 class EditorControlTower(
     val scope: CoroutineScope, val page: PageView, val history: History, val state: EditorState

@@ -1,6 +1,7 @@
-package com.olup.notable
+package com.olup.notable.utils
 
 import android.graphics.Rect
+import com.olup.notable.PageView
 import com.olup.notable.db.Stroke
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.MutableSharedFlow

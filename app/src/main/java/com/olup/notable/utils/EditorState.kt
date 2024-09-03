@@ -1,4 +1,4 @@
-package com.olup.notable
+package com.olup.notable.utils
 
 import android.graphics.Bitmap
 import android.graphics.Color
@@ -8,6 +8,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.unit.IntOffset
 import com.olup.notable.db.Stroke
+import com.olup.notable.*
 
 enum class Mode {
     Draw, Erase, Select

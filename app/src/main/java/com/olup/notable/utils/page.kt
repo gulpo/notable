@@ -1,18 +1,17 @@
-package com.olup.notable
+package com.olup.notable.utils
 
 import android.content.Context
 import android.graphics.pdf.PdfDocument
 import android.os.Environment
 import androidx.compose.ui.unit.IntOffset
+import com.olup.notable.*
 import com.olup.notable.db.BookRepository
 import com.olup.notable.db.PageRepository
 import com.olup.notable.db.Stroke
-import io.shipbook.shipbooksdk.Log
 import java.io.FileOutputStream
 import java.nio.file.Files
 import kotlin.io.path.absolutePathString
 import kotlin.io.path.div
-
 fun exportBook(context: Context, bookId: String) {
     val book = BookRepository(context).getById(bookId) ?: return
     val pages = PageRepository(context)

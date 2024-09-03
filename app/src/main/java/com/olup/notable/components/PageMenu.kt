@@ -15,6 +15,8 @@ import androidx.compose.ui.window.Popup
 import androidx.compose.ui.window.PopupProperties
 import com.olup.notable.db.Page
 import com.olup.notable.*
+import com.olup.notable.utils.noRippleClickable
+import com.olup.notable.utils.deletePage
 
 @Composable
 fun PageMenu(

@@ -2,7 +2,7 @@ package com.olup.notable.db
 
 import android.content.Context
 import androidx.room.*
-import com.olup.notable.Pen
+import com.olup.notable.utils.Pen
 import java.util.*
 
 @kotlinx.serialization.Serializable

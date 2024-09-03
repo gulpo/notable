@@ -1,7 +1,8 @@
-package com.olup.notable
+package com.olup.notable.utils
 
 import android.content.Context
 import android.content.pm.PackageManager
+import com.olup.notable.TAG
 import io.shipbook.shipbooksdk.Log
 import java.net.URL
 import kotlinx.serialization.decodeFromString

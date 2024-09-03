@@ -1,6 +1,5 @@
 package com.olup.notable
 
-import io.shipbook.shipbooksdk.Log
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.Text
@@ -11,10 +10,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableSharedFlow
-import kotlinx.coroutines.flow.collect
-import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
 import java.util.UUID
+import com.olup.notable.utils.noRippleClickable
 
 val SnackContext = staticCompositionLocalOf { SnackState() }
 

@@ -1,9 +1,10 @@
-package com.olup.notable
+package com.olup.notable.utils
 
 import android.graphics.*
 import io.shipbook.shipbooksdk.Log
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.toOffset
+import com.olup.notable.*
 import com.olup.notable.db.Stroke
 import com.onyx.android.sdk.data.note.ShapeCreateArgs
 import com.onyx.android.sdk.data.note.TouchPoint
